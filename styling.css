@@ -1,18 +1,10 @@
 .title-logo{
-  width: 100vw;
-  height: 100vh;
   position: relative;
 }
 .title-name{
-  width: 200px;
-  margin-top: -720px;
-  margin-left: 280px;
-  width: 300px;
-  position: absolute;
+   width: 300px;
 }
 .captain, .ichigo, .espada{
-  margin-top: -600px;
-  position: absolute;
   border: none;
   border-radius: 10px;
   padding-left: 20px;
@@ -25,7 +17,6 @@
   cursor: pointer;
 }
 .captain{
-  margin-left: 100px;
   background-color: rgb(43, 236, 143);
   box-shadow: 0px 0px 20px rgb(244, 231, 231);
 }
@@ -34,7 +25,7 @@
   background-color: rgb(255, 255, 255);
 }
 .ichigo{
-  margin-left: 350px;
+  margin-left: 70px;
   background-color: orange;
   box-shadow: 0px 0px 25px rgb(255,255,255);
 }
@@ -43,7 +34,7 @@
   color: orange;
 }
 .espada{
-  margin-left: 610px;
+  margin-left: 70px;
   background-color: rgb(35, 212, 228);
   box-shadow: 0px 0px 20px rgba(255,255,255);
 }
@@ -52,33 +43,25 @@
   color:rgb(35, 212, 228);
 }
 .firstLine{
-  position: absolute;
   color: white;
-  margin-top: -450px;
-  margin-left: 50px;
   font-family: helvetica;
   font-size: 23px;
   font-weight: bold;
 }
 .secondLine{
-  position: absolute;
   color: white;
   font-family: helvetica;
   font-size: 20px;
   font-weight: bold;
-  margin-top: -390px;
-  margin-left: 50px;
-  width: 650px;
 
 }
 .thirdLine{
-  position: absolute;
   color: white;
   font-family: helvetica;
   font-size: 25px;
-  margin-left: 520px;
-  margin-top: -320px;
-}
+  margin-left: 450px;
+  margin-top: 50px; 
+ }
 .title-gotei{
   font-size: 40px;
   font-weight: bold;
@@ -91,7 +74,7 @@
   object-fit: cover;
   object-position: right; 
   border-radius: 60px;
-  margin-left: 70px;  
+  margin-left: 70px; 
   cursor: pointer;
 }
 .bya:hover, .hitsu:hover, .shun:hover, .keni:hover{
@@ -202,4 +185,28 @@
 }
 body{
   margin: 0;
+}
+.indexDiv{
+  height: 100vh;
+  width: 100vw;
+}
+#title{
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	left: 325px;
+}
+#buttons{
+	position: absolute;
+	display: inline-block;
+	top: 130px;
+	left: 150px;
+	vertical-align: center;
+
+}
+.text{
+	display: inline-block;
+	position: absolute;
+	top: 260px;
+	left: 80px;
 }
