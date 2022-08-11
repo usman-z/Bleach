@@ -1,0 +1,204 @@
+.title-logo{
+  width: 1300px;
+  position: relative;
+}
+.title-name{
+  width: 200px;
+  margin-top: -720px;
+  margin-left: 280px;
+  width: 300px;
+  position: absolute;
+}
+.captain, .ichigo, .espada{
+  margin-top: -600px;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.captain{
+  margin-left: 100px;
+  background-color: rgb(43, 236, 143);
+  box-shadow: 0px 0px 20px rgb(244, 231, 231);
+}
+.captain:hover{
+  color: rgb(43, 236, 143);
+  background-color: rgb(255, 255, 255);
+}
+.ichigo{
+  margin-left: 350px;
+  background-color: orange;
+  box-shadow: 0px 0px 25px rgb(255,255,255);
+}
+.ichigo:hover{
+  background-color: rgb(255, 255, 255);
+  color: orange;
+}
+.espada{
+  margin-left: 610px;
+  background-color: rgb(35, 212, 228);
+  box-shadow: 0px 0px 20px rgba(255,255,255);
+}
+.espada:hover{
+  background-color: rgb(255, 255, 255);
+  color:rgb(35, 212, 228);
+}
+.firstLine{
+  position: absolute;
+  color: white;
+  margin-top: -450px;
+  margin-left: 50px;
+  font-family: helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+.secondLine{
+  position: absolute;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -390px;
+  margin-left: 50px;
+  width: 650px;
+
+}
+.thirdLine{
+  position: absolute;
+  color: white;
+  font-family: helvetica;
+  font-size: 25px;
+  margin-left: 520px;
+  margin-top: -320px;
+}
+.title-gotei{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.bya{
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  object-position: right; 
+  border-radius: 60px;
+  margin-left: 70px;  
+  cursor: pointer;
+}
+.bya:hover, .hitsu:hover, .shun:hover, .keni:hover{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+.yama:hover, .aizen:hover{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+.hitsu{
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  object-position: left; 
+  border-radius: 60px;
+  margin-left: 288px;  
+  cursor: pointer;
+}
+.yama{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center; 
+  border-radius: 60px;
+  margin-left: 298px;  
+  cursor: pointer;
+}
+.shun{
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  object-position: center; 
+  border-radius: 60px;
+  margin-left: 290px; 
+  margin-top: 30px; 
+  cursor: pointer;
+}
+.keni{
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  object-position: center; 
+  border-radius: 60px;
+  margin-left: 330px; 
+  margin-top: 30px; 
+  cursor: pointer;
+}
+.title-espada{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.uluq{
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  object-position: right; 
+  border-radius: 60px;
+  margin-left: 70px;  
+  cursor: pointer;
+}
+.aizen:hover, .bara:hover, .grim:hover, .stark:hover, .uluq:hover{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+.bara{
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  object-position: left; 
+  border-radius: 60px;
+  margin-left: 335px;  
+  cursor: pointer;
+}
+.aizen{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center; 
+  border-radius: 60px;
+  margin-left: 298px;  
+  cursor: pointer;
+}
+.stark{
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center; 
+  border-radius: 60px;
+  margin-left: 290px; 
+  margin-top: 17px; 
+  cursor: pointer;
+}
+.grim{
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  object-position: left; 
+  border-radius: 60px;
+  margin-left: 290px; 
+  cursor: pointer;
+}
+.ichi{
+  width: 400px;
+  display: block;
+  margin-top: 15px;
+  margin-left: 440px;
+  box-shadow: 0px 0px 15px rgb(0,0,0);
+}
+body{
+  margin: 0;
+}
